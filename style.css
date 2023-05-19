@@ -22,14 +22,19 @@ body
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     box-shadow: 4px 4px 8px #3a3a3a;
-    width: 460px;
+    width: 420px;
     min-height: 80vh;
     max-height: 90vh;
     margin: auto;
 }
 .container-title
 {
+    text-transform: uppercase;
     text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    padding: 2px 0px;
 }
 .barra{
     display: flex;
@@ -49,14 +54,33 @@ body
 }
 .form-box h2{
     color: #0f4640;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
-.form-box h3{
-    color: black
+.form-box h3,
+.paginas h3{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 4px 0px;
 }
 .form-box .inputs input{
     width: 100%;
     height: 40px;
     padding-left: 10px;
+    box-shadow: 1px 1px 3px rgb(180, 180, 180);
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.form-box .inputs input:focus{
+    outline: none;
 }
 .form-box .inputs-radio{
     width: 100%;
@@ -74,12 +98,11 @@ body
 .inputs-radio label{
     text-align: center;
     padding: 10px;
-    width: 12%;
+    width: 12.8%;
     font-weight: bold;
     background-color: rgb(170, 170, 170);
-    box-shadow: 2px 2px 6px rgb(100, 100, 100);
+    box-shadow: 1px 1px 3px rgb(100, 100, 100);
     cursor: pointer;
-    box-shadow: 2px;
 }
 .inputs-radio label:hover{
     filter: brightness(110%);
@@ -89,7 +112,7 @@ body
 }
 .inputs-radio img{
     padding: 6px;
-    margin-left: 10px;
+    margin-left: 6px;
     width: 10%;
 }
 .btn-box{
@@ -102,11 +125,24 @@ body
     padding: 10px;
     width: 40%;
     border-radius: 10px;
-    font-weight: 900;
     cursor: pointer;
+    background-image: linear-gradient(to right top, #b8a069, #ccb98e, #b8a069);
     background-color: #ccb98e;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.btn:hover{
+    box-shadow: 1px 1px 3px rgb(100, 100, 100);
 }
 .inputs-radio label.color-vd {
     background-color: #0f4640;
-  }
-  
+}
+.disable{
+    display: none;
+}
+.active{
+    display: block;
+}
