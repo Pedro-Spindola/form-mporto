@@ -188,6 +188,7 @@ body
     .container{
         width: 90%;
         height: 90vh;
+        max-height: 90vh;
         margin: auto;
         margin-bottom: 20px;
     }
