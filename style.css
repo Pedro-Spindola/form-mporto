@@ -50,10 +50,22 @@ body
 }
 .container-conteudo{
     padding: 18px;
-
+}
+.box-logo{
+    display: flex;
+    justify-content: center;
+}
+.logo-mporto{
+    width: 150px;
 }
 .form-box{
     transition: transform 2.5s;
+}
+.form-box h4{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-align: justify;
 }
 .form-box h2{
     color: #0f4640;
@@ -67,7 +79,7 @@ body
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.5px;
-    padding: 4px 0px;
+    padding: 8px 0px;
 }
 .form-box .inputs input{
     width: 100%;
@@ -123,6 +135,21 @@ body
     justify-content: space-around;
     padding-top: 20px;
 }
+.btn-iniciar{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #b8a069, #ccb98e, #b8a069);
+    background-color: #ccb98e;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #0f4640;
+}
 .btn{
     text-align: center;
     padding: 10px;
@@ -136,8 +163,10 @@ body
     letter-spacing: 2px;
     text-transform: uppercase;
     transition: 0.3s;
+    color: #0f4640;
 }
-.btn:hover{
+.btn:hover,
+.btn-iniciar:hover{
     box-shadow: 1px 1px 3px rgb(100, 100, 100);
 }
 .inputs-radio label.color-vd {
