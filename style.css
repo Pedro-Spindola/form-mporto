@@ -31,10 +31,10 @@ body
 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 22px;
-    font-weight: 900;
-    letter-spacing: 4px;
-    padding: 2px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 7px 0px;
 }
 .barra{
     display: flex;
@@ -51,6 +51,9 @@ body
 .container-conteudo{
     padding: 18px;
 
+}
+.form-box{
+    transition: transform 2.5s;
 }
 .form-box h2{
     color: #0f4640;
