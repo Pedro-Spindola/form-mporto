@@ -22,7 +22,7 @@ body
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     box-shadow: 4px 4px 8px #3a3a3a;
-    width: 420px;
+    width: 480px;
     min-height: 80vh;
     max-height: 90vh;
     margin: auto;
@@ -177,4 +177,14 @@ body
 }
 .active{
     display: block;
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        width: 90%;
+        min-height: 80vh;
+        max-height: 90vh;
+        margin: auto;
+    }
+    
 }
