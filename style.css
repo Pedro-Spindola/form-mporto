@@ -23,8 +23,7 @@ body
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     box-shadow: 4px 4px 8px #3a3a3a;
     width: 480px;
-    min-height: 80vh;
-    max-height: 90vh;
+    height: 90vh;
     margin: auto;
 }
 .container-title
@@ -72,6 +71,9 @@ body
     font-size: 20px;
     font-weight: 900;
     letter-spacing: 2px;
+}
+.pgt{
+    min-height: 65vh;
 }
 .form-box h3,
 .paginas h3{
@@ -133,6 +135,7 @@ body
 .btn-box{
     display: flex;
     justify-content: space-around;
+    bottom: 20px;
     padding-top: 20px;
 }
 .btn-iniciar{
@@ -182,8 +185,7 @@ body
 @media screen and (max-width: 500px){
     .container{
         width: 90%;
-        min-height: 80vh;
-        max-height: 90vh;
+        height: 90vh;
         margin: auto;
     }
     
